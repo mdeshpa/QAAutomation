@@ -1,5 +1,5 @@
 {
-    "src_folders" : ["./tests/apiregistration"],
+    "src_folders" : ["./tests/frontdoorlogin"],
     "selenium" : {
         "cli_args" : {
 		"webdriver.firefox.driver" : "/lib/selenium-server-standalone-3.0.1.exe",

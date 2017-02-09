@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="frontdoorloginFB"
+    errors="0" failures="0" hostname="" id="" package="frontdoorloginFB" skipped="0"
+    tests="1" time="51.62" timestamp="Thu, 09 Feb 2017 21:38:53 GMT">
+  
+    <testcase name="Test MUSE Login through FaceBook - Front Door" time="51.62" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

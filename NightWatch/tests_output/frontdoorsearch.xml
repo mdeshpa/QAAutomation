@@ -5,15 +5,15 @@
 
   <testsuite name="frontdoorsearch"
     errors="1" failures="0" hostname="" id="" package="frontdoorsearch" skipped="0"
-    tests="1" time="0.01900" timestamp="Mon, 06 Feb 2017 19:26:53 GMT">
+    tests="1" time="0.02300" timestamp="Thu, 09 Feb 2017 20:15:34 GMT">
   
-    <testcase name="Test Search from Front Door" time="0.01900" assertions="0">
+    <testcase name="Test Search from Front Door" time="0.02300" assertions="0">
     </testcase>
       <system-err>
           Error while running [Frontdoorsearch / Test Search from Front Door]:
 
-  ReferenceError: browser is not defined
-    at Object.Test Search from Front Door (E:\WSNightWatch\OdysseyQATests\tests\frontdoorsearch\frontdoorsearch.js:8:55)
+  TypeError: client.url(...).useXpath(...).click(...).setValue(...).waitForElementVisible(...).verify.urlContains(...).verify.getPageSource is not a function
+    at Object.Test Search from Front Door (E:\QAAutomation\NightWatch\tests\frontdoorsearch\frontdoorsearch.js:18:16)
     at Module.call (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
     at C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
