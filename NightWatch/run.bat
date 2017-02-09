@@ -1,0 +1,1 @@
+nightwatch --config tests/nightwatch.json --env chrome

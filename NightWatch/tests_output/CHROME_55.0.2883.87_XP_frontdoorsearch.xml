@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="frontdoorsearch"
+    errors="0" failures="0" hostname="" id="" package="frontdoorsearch" skipped="0"
+    tests="1" time="83.45" timestamp="Mon, 06 Feb 2017 20:11:16 GMT">
+  
+    <testcase name="Test Search from Front Door" time="83.45" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

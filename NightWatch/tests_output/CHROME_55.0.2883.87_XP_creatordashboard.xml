@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="1">
+
+  <testsuite name="creatordashboard"
+    errors="5" failures="1" hostname="" id="" package="creatordashboard" skipped="0"
+    tests="1" time="67.84" timestamp="Mon, 06 Feb 2017 15:03:27 GMT">
+  
+    <testcase name="Creator Dashboards" time="67.84" assertions="12">
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[1]/h2&gt; contains text: &quot;2.7M&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:10:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[2]/h2&gt; contains text: &quot;638K&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:11:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[3]/h2&gt; contains text: &quot;441&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:12:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[1]/h2&gt; contains text: &quot;159.4K&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:16:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[2]/h2&gt; contains text: &quot;40.2K&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:17:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[3]/h2&gt; contains text: &quot;28&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:18:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[1]/h2&gt; contains text: &quot;184.4K&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:22:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[2]/h2&gt; contains text: &quot;48K&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:23:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if element &lt;//*[@id=&#39;main&#39;]/div/div/div/div/article/ul/li[3]/h2&gt; contains text: &quot;31&quot;.">    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:24:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+      <failure message="Testing if the URL contains &quot;https://muse.theodysseyonline.com/account/login?ReturnUrl=%2Fadmin#cms/content/919432/edit&quot;.">    at Object.&lt;anonymous&gt; (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:36:19)</failure>
+
+      <failure message="Timed out while waiting for element &lt;//*[@id=&#39;nav-meta&#39;]/ul/li[5]/a&gt; to be present for 50000 milliseconds.">    at Object.&lt;anonymous&gt; (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:44:8)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;//*[@id=&#39;main&#39;]/div/div/div/div/section/article/a[1]/div&quot; using: xpath
+    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:28:7)
+    at Module.call (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&#39;main&#39;]/div/div/div/div/section/article/a[1]/div&quot; using: xpath
+    at Object.Creator Dashboards (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:31:7)
+    at Module.call (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;#UserName&quot; using: css selector
+    at Object.&lt;anonymous&gt; (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:40:11)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:358:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:374:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\http\request.js:157:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+ERROR: Unable to locate element: &quot;#Password&quot; using: css selector
+    at Object.&lt;anonymous&gt; (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:41:11)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:358:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:374:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\http\request.js:157:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+ERROR: Unable to locate element: &quot;//*[@id=&#39;loginForm&#39;]/form/div[4]/div/input&quot; using: xpath
+    at Object.&lt;anonymous&gt; (E:\WSNightWatch\OdysseyQATests\tests\creatordashboard\creatordashboard.js:43:11)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:358:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\index.js:374:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\milind_deshpande\AppData\Roaming\npm\node_modules\nightwatch\lib\http\request.js:157:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

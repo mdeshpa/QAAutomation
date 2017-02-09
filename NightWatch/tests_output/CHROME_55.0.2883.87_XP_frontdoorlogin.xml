@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="frontdoorlogin"
+    errors="0" failures="0" hostname="" id="" package="frontdoorlogin" skipped="0"
+    tests="1" time="97.88" timestamp="Mon, 06 Feb 2017 20:07:18 GMT">
+  
+    <testcase name="Test MUSE Login through Front Door" time="97.88" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

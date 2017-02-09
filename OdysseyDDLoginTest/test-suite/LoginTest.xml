@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+	<test name="MultipleUserLogin">
+		<classes>
+			<class name="testDDLoginPackage.DataDrivenUserLogin" />
+		</classes>
+	</test>
+	
+</suite>
