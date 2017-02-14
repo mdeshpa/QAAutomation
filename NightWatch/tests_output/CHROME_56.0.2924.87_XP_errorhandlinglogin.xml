@@ -5,9 +5,9 @@
 
   <testsuite name="errorhandlinglogin"
     errors="0" failures="0" hostname="" id="" package="errorhandlinglogin" skipped="0"
-    tests="1" time="26.45" timestamp="Fri, 10 Feb 2017 20:12:19 GMT">
+    tests="1" time="22.64" timestamp="Tue, 14 Feb 2017 18:41:42 GMT">
   
-    <testcase name="Test Error handling while login to MUSE through Front Door" time="26.45" assertions="4">
+    <testcase name="Test Error handling while login to MUSE through Front Door" time="22.64" assertions="4">
 
     
 

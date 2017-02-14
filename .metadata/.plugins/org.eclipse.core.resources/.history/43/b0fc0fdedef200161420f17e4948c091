@@ -1,0 +1,21 @@
+module.exports = {
+
+		errorhandlingsearch : {
+		    url: "https://www.theodysseyonline.com/",	
+		    invalidtext: "Invalidtextsearch"
+			  },
+			  
+		errorhandlingsearch : {
+			username: "milind",
+			password: "11112222",
+			url: "https://www.theodysseyonline.com/"	
+			  },
+		
+
+		    "users": [{"username": "developeraccount", "password": "developeraccount123"},
+		    	{"username": "muse-editorinchief", "password": "developeraccount123"},
+		    	{"username": "muse-managingeditor", "password": "developeraccount123"},
+		    	]		
+};
+		
+

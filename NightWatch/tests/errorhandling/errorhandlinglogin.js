@@ -1,8 +1,9 @@
 module.exports = {
 
 'Test Error handling while login to MUSE through Front Door': function(client) {
+			var data = client.globals;		
 		    client
-		      .url('https://www.theodysseyonline.com/')
+		      .url(data.env.url)
 		      .useXpath()
 		      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 50000)
 		      	      

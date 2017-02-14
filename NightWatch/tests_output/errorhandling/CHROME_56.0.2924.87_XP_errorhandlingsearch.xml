@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="errorhandlingsearch"
+    errors="0" failures="0" hostname="" id="" package="errorhandlingsearch" skipped="0"
+    tests="1" time="15.88" timestamp="Tue, 14 Feb 2017 20:08:16 GMT">
+  
+    <testcase name="Test Error handling while search on Front Door" time="15.88" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

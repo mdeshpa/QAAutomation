@@ -6,7 +6,7 @@ module.exports = {
 		client
 	      .url('https://www.theodysseyonline.com/')
 	      .useXpath()
-	      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 50000)
+	      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 500000)
 	      .verify.containsText("//*[@id='odyssey-main-app-bar']/div[2]/a", 'SIGN UPLOG IN')
 	      	      
 		  .click("//*[@id='odyssey-main-app-bar']/div[2]/a")

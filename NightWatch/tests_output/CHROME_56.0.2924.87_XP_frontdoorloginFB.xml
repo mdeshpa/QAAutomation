@@ -5,11 +5,9 @@
 
   <testsuite name="frontdoorloginFB"
     errors="0" failures="0" hostname="" id="" package="frontdoorloginFB" skipped="0"
-    tests="1" time="49.54" timestamp="Fri, 10 Feb 2017 16:19:48 GMT">
+    tests="1" time="19.46" timestamp="Tue, 14 Feb 2017 19:26:44 GMT">
   
-    <testcase name="Test MUSE Login through FaceBook - Front Door" time="49.54" assertions="5">
-
-    
+    <testcase name="Test MUSE Login through FaceBook - Front Door" time="19.46" assertions="4">
 
     
 
