@@ -29,7 +29,6 @@ module.exports = {
 			  
 //Log in to the MUSE.	
 			  
-			  
 			  this.useCss()
 		      .setValue('#UserName', user.username)
 		      .setValue('#Password', user.password)
@@ -37,10 +36,26 @@ module.exports = {
 		      .click("//*[@id='loginForm']/form/div[4]/div/input")
 			  .waitForElementVisible("//*[@id='nav-meta']/ul/li[5]/a", 50000)
 			  .click("//*[@id='nav-meta']/ul/li[5]/a");  
+
+			  this.closeWindow(newWindow);
+			  newWindow = result.value[0];
+			  this.switchWindow(newWindow);
 			  
-		  });  	  
-	
+			  this
+			  .waitForElementVisible("//span[@class='dKnS56XgOgqbwowsbqUvj _3-4-QgZzG8mI9aDQTYPIl3']", 50000)
+			  .click("//span[@class='dKnS56XgOgqbwowsbqUvj _3-4-QgZzG8mI9aDQTYPIl3']")
+			  //.waitForElementVisible("//div[@id='app-bar-hamburger-menu']", 50000)
+			  .click("//div[@id='app-bar-hamburger-menu']")
+			  //.waitForElementVisible('//div[@class="_3wrmKY0YIxc1CnooX7Z_C1"]/button', 50000)
+			  .click('//div[@class="_3wrmKY0YIxc1CnooX7Z_C1"]/button')			  
+		  
+		  })
+		
+
 	});
+	
+
+
 }
 
 };
