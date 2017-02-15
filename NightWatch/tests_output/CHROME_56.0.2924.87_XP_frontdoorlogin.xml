@@ -5,9 +5,11 @@
 
   <testsuite name="frontdoorlogin"
     errors="0" failures="0" hostname="" id="" package="frontdoorlogin" skipped="0"
-    tests="1" time="27.45" timestamp="Fri, 10 Feb 2017 19:02:21 GMT">
+    tests="1" time="62.42" timestamp="Tue, 14 Feb 2017 19:25:41 GMT">
   
-    <testcase name="Test MUSE Login through Front Door" time="27.45" assertions="4">
+    <testcase name="Test MUSE Login through Front Door" time="62.42" assertions="5">
+
+    
 
     
 

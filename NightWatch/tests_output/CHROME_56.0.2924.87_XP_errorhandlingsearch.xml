@@ -5,9 +5,9 @@
 
   <testsuite name="errorhandlingsearch"
     errors="0" failures="0" hostname="" id="" package="errorhandlingsearch" skipped="0"
-    tests="1" time="38.30" timestamp="Fri, 10 Feb 2017 20:13:11 GMT">
+    tests="1" time="14.25" timestamp="Tue, 14 Feb 2017 18:42:31 GMT">
   
-    <testcase name="Test Error handling while search on Front Door" time="38.30" assertions="4">
+    <testcase name="Test Error handling while search on Front Door" time="14.25" assertions="4">
 
     
 

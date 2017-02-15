@@ -1,5 +1,12 @@
-module.exports = {	
-		    "users": [
+module.exports = {
+
+		env : {url: "https://www.theodysseyonline.com/"},
+		errorhandlingsearch : {invalidtext: "Invalidtextsearch"},			  
+		frontdoorsearch : {searchkey: "America"},
+		frontdoorlogin : {username: "developeraccount", password: "developeraccount123"},
+		
+
+		"users": [
 		    	{"username": "muse-editorinchief", "password": "developeraccount123"}, /*editor in chief*/
 		    	{"username": "developeraccount", "password": "developeraccount123"}, /*developer*/
 		    	{"username": "milind", "password": "11112222"}, /*managing editor*/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="creatordashboard"
+    errors="0" failures="1" hostname="" id="" package="creatordashboard" skipped="0"
+    tests="1" time="0.3830" timestamp="Mon, 13 Feb 2017 17:42:42 GMT">
+  
+    <testcase name="Creator Dashboards" time="0.3830" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#39;nav-meta&#39;]/ul/li[5]/a&gt; to be present for 50000 milliseconds.">    at Object.Test Community creation (E:\QAAutomation\NightWatch\tests\communitycreation\communitycreation.js:11:7)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

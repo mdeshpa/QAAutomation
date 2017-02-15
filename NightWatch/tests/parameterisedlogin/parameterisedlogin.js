@@ -5,7 +5,7 @@ module.exports = {
               var data = client.globals;	
               
 			client
-		      .url('https://www.theodysseyonline.com/')
+		      .url(data.env.url)
 		      .useXpath()
 		      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 50000)
 		      .verify.containsText("//*[@id='odyssey-main-app-bar']/div[2]/a", 'SIGN UPLOG IN')
@@ -13,7 +13,7 @@ module.exports = {
 			  .click("//*[@id='odyssey-main-app-bar']/div[2]/a")
 			  .pause(5000)
 			  .useCss()
-		  	  .verify.urlContains("https://www.theodysseyonline.com/")    
+		  	  .verify.urlContains(data.test_02.url)    
 		  	  
 // Verify that user gets navigated to MUSE Log in screen on clicking on link "Login with Muse".		  
 			  
@@ -30,8 +30,8 @@ module.exports = {
 				  
 // Log in to the MUSE.		  
 				  this.useCss()
-			      .setValue('#UserName', data.username)
-			      .setValue('#Password', data.password)
+			      .setValue('#UserName', data.test_02.username)
+			      .setValue('#Password', data.test_02.password)
 			      .useXpath()
 			      .click("//*[@id='loginForm']/form/div[4]/div/input")
 				  .waitForElementVisible("//*[@id='nav-meta']/ul/li[5]/a", 50000)

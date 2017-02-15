@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="errorhandlingloginFB"
+    errors="0" failures="0" hostname="" id="" package="errorhandlingloginFB" skipped="0"
+    tests="1" time="21.05" timestamp="Tue, 14 Feb 2017 20:07:55 GMT">
+  
+    <testcase name="Test Error handling while login to MUSE through FaceBook" time="21.05" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

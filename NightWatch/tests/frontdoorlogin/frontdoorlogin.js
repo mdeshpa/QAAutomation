@@ -1,8 +1,9 @@
 module.exports = {
 
 'Test MUSE Login through Front Door': function(client) {
+			var data = client.globals;		
 		    client
-		      .url('https://www.theodysseyonline.com/')
+		      .url(data.env.url)
 		      .useXpath()
 		      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 50000)
 		      .verify.containsText("//*[@id='odyssey-main-app-bar']/div[2]/a", 'SIGN UPLOG IN')
@@ -10,7 +11,7 @@ module.exports = {
 			  .click("//*[@id='odyssey-main-app-bar']/div[2]/a")
 			  .pause(5000)
 			  .useCss()
-		  	  .verify.urlContains("https://www.theodysseyonline.com/")    
+		  	  .verify.urlContains(data.env.url)    
 		  	  
 // Verify that user gets navigated to MUSE Log in screen on clicking on link "Login with Muse".		  
 			  
@@ -27,8 +28,8 @@ module.exports = {
 				  
 // Log in to the MUSE.		  
 				  this.useCss()
-			      .setValue('#UserName', 'milind')
-			      .setValue('#Password', '11112222')
+			      .setValue('#UserName', data.frontdoorlogin.username)
+			      .setValue('#Password', data.frontdoorlogin.password)
 			      .useXpath()
 			      .click("//*[@id='loginForm']/form/div[4]/div/input")
 				  .waitForElementVisible("//*[@id='nav-meta']/ul/li[5]/a", 50000)
