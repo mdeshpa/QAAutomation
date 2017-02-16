@@ -5,9 +5,9 @@
 
   <testsuite name="frontdoorsearch"
     errors="0" failures="0" hostname="" id="" package="frontdoorsearch" skipped="0"
-    tests="1" time="31.63" timestamp="Tue, 14 Feb 2017 20:06:55 GMT">
+    tests="1" time="15.17" timestamp="Thu, 16 Feb 2017 19:31:36 GMT">
   
-    <testcase name="Test Search from Front Door" time="31.63" assertions="5">
+    <testcase name="Test Search from Front Door" time="15.17" assertions="5">
 
     
 

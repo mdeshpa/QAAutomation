@@ -5,9 +5,9 @@
 
   <testsuite name="errorhandlingloginFB"
     errors="0" failures="0" hostname="" id="" package="errorhandlingloginFB" skipped="0"
-    tests="1" time="21.05" timestamp="Tue, 14 Feb 2017 20:07:55 GMT">
+    tests="1" time="20.72" timestamp="Thu, 16 Feb 2017 19:32:13 GMT">
   
-    <testcase name="Test Error handling while login to MUSE through FaceBook" time="21.05" assertions="2">
+    <testcase name="Test Error handling while login to MUSE through FaceBook" time="20.72" assertions="2">
 
     
 

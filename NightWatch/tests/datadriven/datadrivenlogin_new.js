@@ -4,7 +4,7 @@ module.exports = {
 	var data = client.globals;
 	data.users.forEach(function(user){
 		client
-	      .url('https://www.theodysseyonline.com/')
+	      .url(data.env.url)
 	      .useXpath()
 	      .waitForElementVisible("//*[@id='odyssey-main-app-bar']/div[2]/a", 500000)
 	      .verify.containsText("//*[@id='odyssey-main-app-bar']/div[2]/a", 'SIGN UPLOG IN')
@@ -12,7 +12,7 @@ module.exports = {
 		  .click("//*[@id='odyssey-main-app-bar']/div[2]/a")
 		  .pause(5000)
 		  .useCss()
-	  	  .verify.urlContains("https://www.theodysseyonline.com/")    
+	  	  .verify.urlContains(data.env.url)    
 	  	  
 //Verify that user gets navigated to MUSE Log in screen on clicking on link "Login with Muse".		  
 		  
@@ -47,15 +47,10 @@ module.exports = {
 			  //.waitForElementVisible("//div[@id='app-bar-hamburger-menu']", 50000)
 			  .click("//div[@id='app-bar-hamburger-menu']")
 			  //.waitForElementVisible('//div[@class="_3wrmKY0YIxc1CnooX7Z_C1"]/button', 50000)
-			  .click('//div[@class="_3wrmKY0YIxc1CnooX7Z_C1"]/button')			  
-		  
-		  })
-		
-
-	});
-	
-
-
-}
+			  .click('//div[@class="_3wrmKY0YIxc1CnooX7Z_C1"]/button')			  		  
+		  		})
+			});
+		client.end();
+	}
 
 };
