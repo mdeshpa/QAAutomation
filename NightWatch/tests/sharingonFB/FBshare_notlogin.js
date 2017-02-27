@@ -2,12 +2,12 @@
 
 module.exports = {
 
-'Test MUSE Login through Front Door': function(client) {
+'Test FB Share when user is NOT logged in on FaceBook': function(client) {
 		    client
 		      .url('https://www.theodysseyonline.com/')		      
-		      .useXpath()
-		      .waitForElementVisible("//a[@href='/discussions-spell-trouble-for-snowden']", 50000)
-		      .click("//a[@href='/discussions-spell-trouble-for-snowden']")
+		      .useXpath()      
+		      .waitForElementVisible("//*[@id='main']/div/div/div/div[2]/div/div/div/section/div[1]/article/figure/div/div/header/h2/a/span", 50000)
+			  .click("//*[@id='main']/div/div/div/div[2]/div/div/div/section/div[1]/article/figure/div/div/header/h2/a/span")
 			  .pause(5000)
 			  .useCss()
 		  	  .verify.urlContains("https://www.theodysseyonline.com/")		 
@@ -31,9 +31,7 @@ module.exports = {
 			      .assert.title('Post to Facebook');
 				  this.closeWindow(newWindow);
 				  newWindow = result.value[0];
-				  this.switchWindow(newWindow);
-
-				  
+				  this.switchWindow(newWindow);				  
 			  })	  	  
 		          .end();
 	}

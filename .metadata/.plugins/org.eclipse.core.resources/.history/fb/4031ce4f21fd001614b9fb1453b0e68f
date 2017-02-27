@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="datadrivenlogin"
+    errors="0" failures="0" hostname="" id="" package="datadrivenlogin" skipped="0"
+    tests="1" time="261.0" timestamp="Mon, 27 Feb 2017 18:58:54 GMT">
+  
+    <testcase name="Test MUSE Parameterised Login through Front Door" time="261.0" assertions="36">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -2,7 +2,7 @@
 
 module.exports = {
 
-'Test MUSE Login through FaceBook - Front Door': function(client) {
+'Test FB Share when user is logged in on FaceBook': function(client) {
 		    client
 		      .url('https://www.theodysseyonline.com/')
 		      .useXpath()
@@ -32,9 +32,7 @@ module.exports = {
 			      .setValue('#email', 'odesseyqa@gmail.com')
 			      .setValue('#pass', 'OdesseyQA@123')
 			      .useXpath()
-			      .click("//*[@id='loginbutton']")
-//				  .waitForElementVisible("//*[@id='nav-meta']/ul/li[5]/a", 50000)
-//				  .click("//*[@id='nav-meta']/ul/li[5]/a")  
+			      .click("//*[@id='loginbutton']") 
 				  this.verify.urlContains("https://www.theodysseyonline.com");
 			      
 				  this.closeWindow(newWindow);
@@ -44,16 +42,13 @@ module.exports = {
 			  })
 			  	  .refresh()
 			      .useXpath()
-			  	  .waitForElementVisible("//a[@href='/discussions-spell-trouble-for-snowden']", 50000)
-			  	  .click("//a[@href='/discussions-spell-trouble-for-snowden']")
+			      .waitForElementVisible("//*[@id='main']/div/div/div/div[2]/div/div/div/section/div[1]/article/figure/div/div/header/h2/a/span", 50000)
+			  	  .click("//*[@id='main']/div/div/div/div[2]/div/div/div/section/div[1]/article/figure/div/div/header/h2/a/span")		      
 			  	  .pause(5000)
 			  	  .useCss()
 			  	  .verify.urlContains("https://www.theodysseyonline.com/")
 			  	  .click("button._1zoyK1cV-f81ZFxIdn8WZe._1a2jxaardozqknAeOFhGpJ")	
 			  	  .pause(5000)
-
-			  	   
-			  
 		          .end();
 		}
 };		  

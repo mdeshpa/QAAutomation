@@ -6,11 +6,11 @@ module.exports = {
 		frontdoorlogin : {username: "developeraccount", password: "developeraccount123"},
 		
 		"users": [
-	    	{"username": "muse-editorinchief", "password": "developeraccount123"}, /*editor in chief*/
-	    	{"username": "developeraccount", "password": "developeraccount123"}, /*developer*/
-	    	{"username": "milind", "password": "11112222"}, /*managing editor*/
-	    	{"username": "testwriter100", "password": "developeraccount123"}, /*writer*/
-	    	{"username": "musewriterlast", "password": "developeraccount123"}, /*assistant managing editor*/
-	    	{"username": "musewriter2last", "password": "developeraccount123"} /*contributing editor*/
+	    	{"username": "nightwatch-test-scs", "password": "developeraccount123"}, /*managing editor*/
+	    	{"username": "nightwatch-test-cs", "password": "developeraccount123"}, /*assistant managing editor*/
+	    	{"username": "nightwatch-test-eic", "password": "developeraccount123"}, /*editor in chief*/
+	    	{"username": "nightwatch-test-ce", "password": "developeraccount123"}, /*contributing editor*/
+	    	{"username": "nightwatch-test-creator", "password": "developeraccount123"}, /*writer*/
+	    	{"username": "developeraccount", "password": "developeraccount123"} /*developer*/
 	    	]		
 };

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="FBshare_notlogin"
+    errors="0" failures="0" hostname="" id="" package="FBshare_notlogin" skipped="0"
+    tests="1" time="24.26" timestamp="Mon, 27 Feb 2017 17:53:03 GMT">
+  
+    <testcase name="Test FB Share when user is NOT logged in on FaceBook" time="24.26" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
